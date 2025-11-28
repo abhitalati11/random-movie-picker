@@ -60,7 +60,6 @@ randombtn.onclick = ()=>{
 
 function makedispcard(){
     let index = Math.floor(Math.random() * (45));
-    console.log(index);
 
     let tittleh3 = document.createElement(`h3`);
 
