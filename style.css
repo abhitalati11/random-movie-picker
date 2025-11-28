@@ -11,9 +11,11 @@ body{
 }
 .main{
     height: 50%;
+    color: black;
     border-radius: 20px;
     border: 2px solid black;
     padding: 2rem;
+    color: white;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -54,4 +56,25 @@ body{
 }
 #avail{
     font-size: 1.2rem;
+}
+body {
+    background:
+      radial-gradient(circle at 15% 30%, rgba(255,0,0,0.12), transparent 60%),
+      radial-gradient(circle at 85% 70%, rgba(255,0,0,0.1), transparent 70%),
+      radial-gradient(circle at 60% 40%, rgba(255,255,255,0.05), transparent 80%),
+      #000;
+    color: white;
+}
+
+.main {
+    backdrop-filter: blur(14px);
+    background: rgba(60, 0, 0, 0.28); /* deep blood tint */
+    border: 1px solid rgba(255, 0, 0, 0.35); /* soft red border */
+    border-radius: 20px;
+
+    /* ghostly inner fog */
+    box-shadow:
+        inset 0 0 25px rgba(255, 255, 255, 0.12),
+        0 0 25px rgba(255, 0, 0, 0.25),
+        0 0 40px rgba(0, 0, 0, 0.9);
 }
