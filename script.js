@@ -45,7 +45,7 @@ const horrorMovies = [
   { title: "The Others", year: 2001, genre: "  Supernatural Mystery", platforms: ["Netflix"] },
   { title: "Mama", year: 2013, genre: "  Supernatural", platforms: ["Prime Video"] },
 ]
-console.log(horrorMovies.length);
+console.log("hello");
 // giving names to ids or classes
 const randombtn = document.getElementById("randombtn");
 const div3 = document.getElementById("div3");
