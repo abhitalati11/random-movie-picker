@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+}
+.main{
+    height: 50%;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center; 
+}
+#randombtn{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: rgb(212, 212, 212);
+
+    &:hover{
+        background-color: rgb(220, 220, 220);
+    }
+}
+#result{
+    border: 2px solid black;
+    height: 55%;
+    border-radius: 15px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    width: 35%;
+}
+#result h3{
+    font-size: 1.4rem;
+}
+#info{
+    display: flex;
+    gap: 10px;
+    font-size: 1.1rem;
+}
+#avail{
+    font-size: 1.2rem;
+}
