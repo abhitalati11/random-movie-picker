@@ -49,9 +49,10 @@ const horrorMovies = [
 // giving names to ids or classes
 const randombtn = document.getElementById("randombtn");
 const resultdiv = document.getElementById("result");
+console.log(resultdiv);
 
 randombtn.onclick = ()=>{
-    deletold();
+   // deletold();
     setTimeout(() => {
         makedispcard();
     }, 500);
@@ -85,6 +86,9 @@ function makedispcard(){
     newdiv.appendChild(p2);
 }
 
-function deletold(){
-    resultdiv.innerHTML = "";
-}
+// function deletold(){
+//     resultdiv.innerHTML = "";
+// }
+// function deletold(){
+//     resultdiv.innerHTML = "";
+// }
